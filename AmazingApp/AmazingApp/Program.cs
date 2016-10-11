@@ -13,7 +13,7 @@ namespace AmazingApp
             System.Console.WriteLine("This app is amazing with amazing animals");
             IAmazingAnimals grumpy = new OctoCat("Grumpy");
             System.Console.WriteLine("Grumpy just joined us.");
-            System.Console.WriteLine("Grumpy says : '${s}'", grumpy.says());
+            System.Console.WriteLine("Grumpy says : '{0}'", grumpy.says());
             System.Console.WriteLine("Say good by to the amazing animals");
             var goodBy = System.Console.ReadLine();
         }
